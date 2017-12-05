@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="游戏接口">
+      <UniqueIdentifier>{1107226b-4098-4b25-a1d3-b6189fa831a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\挂载主线程">
+      <UniqueIdentifier>{94ff4762-eb2a-4d45-b55a-cf0b769a0eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\怪物类">
+      <UniqueIdentifier>{8899711c-ab50-40ef-9e7f-130332b211ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\BUFF类">
+      <UniqueIdentifier>{4ab00fea-04c0-405d-b0c1-a204ab54e376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\装备类">
+      <UniqueIdentifier>{f282f234-1ea0-469e-99f1-157a66522886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\技能类">
+      <UniqueIdentifier>{7d5e9b6e-a646-49cb-8c33-eba9dc6a6194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\玩家类">
+      <UniqueIdentifier>{d3243b49-819b-4491-b04c-dab822775390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\无模块">
+      <UniqueIdentifier>{a3a18805-14fa-4532-a609-7e9cf816c889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\游戏基地址">
+      <UniqueIdentifier>{88722a7f-5967-4373-a298-c45c00118780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\共享内存">
+      <UniqueIdentifier>{445672f1-4d25-41d9-bf72-53bc4215b404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\CALL">
+      <UniqueIdentifier>{2518bfc9-3b24-417c-8437-c090887b3f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\工具类">
+      <UniqueIdentifier>{876298e9-45b1-4223-9d58-8158f9369eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\目标选择器">
+      <UniqueIdentifier>{09d66d4e-8e41-4678-afed-23d463b5d95f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HookToMainThread.h">
+      <Filter>游戏接口\挂载主线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>游戏接口\怪物类</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>游戏接口\装备类</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>游戏接口\技能类</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedMemoryClient.h">
+      <Filter>游戏接口\共享内存</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCall.h">
+      <Filter>游戏接口\CALL</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>游戏接口\BUFF类</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>游戏接口\玩家类</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>游戏接口\工具类</Filter>
+    </ClInclude>
+    <ClInclude Include="baseaddr.h">
+      <Filter>游戏接口\游戏基地址</Filter>
+    </ClInclude>
+    <ClInclude Include="CShareMemoryStruct.h">
+      <Filter>游戏接口\共享内存</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferService.h">
+      <Filter>游戏接口\BUFF类</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillService.h">
+      <Filter>游戏接口\技能类</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetSelecter.h">
+      <Filter>游戏接口\目标选择器</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HookToMainThread.cpp">
+      <Filter>游戏接口\挂载主线程</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>游戏接口\怪物类</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>游戏接口\装备类</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>游戏接口\技能类</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedMemoryClient.cpp">
+      <Filter>游戏接口\共享内存</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCall.cpp">
+      <Filter>游戏接口\CALL</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>游戏接口\BUFF类</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>游戏接口\玩家类</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>游戏接口\工具类</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferService.cpp">
+      <Filter>游戏接口\BUFF类</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillService.cpp">
+      <Filter>游戏接口\技能类</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetSelecter.cpp">
+      <Filter>游戏接口\目标选择器</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
